@@ -133,6 +133,34 @@ footer{padding:28px 0 100px;text-align:center;color:var(--mute);font-size:14px}
   .orbit ul{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-bottom:8px}
   .orbit li{position:static;transform:none}
 }
+
+/* Compact spacing: less scrolling */
+section{padding:48px 0}
+.hero{padding:36px 0 44px}
+.formcard{margin-top:30px}
+.hero .lead{margin:16px 0 22px}
+.chips{margin-top:20px}
+.sub{margin:10px 0 24px}
+section h2.t{font-size:clamp(26px,3.4vw,38px)}
+.bento{gap:12px}.cell{padding:20px}.cell svg{width:30px;height:30px;margin-bottom:10px}
+.two{gap:32px}.two ul{gap:10px}.two li{padding:13px 16px}
+ol.steps li{padding:18px 16px}
+details{padding:14px 0}
+.contact{padding:28px}
+footer{padding:20px 0 90px}
+.fine{margin-top:14px}
+@media (min-width:761px){
+  .orbit{width:560px;margin-top:14px}
+  .orbit::before{inset:45px}.orbit::after{inset:140px}
+  .orbit ul.o{--r:235px}.orbit ul.i{--r:140px}
+  .core{width:120px;height:120px;padding:10px;font-size:11.5px}.core img{width:52px}
+  .orbit li{padding:6px 12px;font-size:13px}
+}
+@media (max-width:900px){
+  .lens{width:min(56%,220px)}
+  .hero .wrap{gap:26px}
+  .formcard{margin-top:24px}
+}
 </style>
 </head>
 <body>
@@ -192,7 +220,7 @@ footer{padding:28px 0 100px;text-align:center;color:var(--mute);font-size:14px}
   </div>
 </section>
 
-<section class="alt">
+<!-- <section class="alt">
   <div class="wrap two">
     <div>
       <h2 class="t">A Dubai IT company, not just a camera installer</h2>
@@ -204,7 +232,7 @@ footer{padding:28px 0 100px;text-align:center;color:var(--mute);font-size:14px}
       <li><b>Support after handover</b><span>Service and monitoring options so small issues do not become blind spots.</span></li>
     </ul>
   </div>
-</section>
+</section> -->
 
 <section class="orbit-sec" aria-labelledby="brands-t">
   <div class="wrap">
